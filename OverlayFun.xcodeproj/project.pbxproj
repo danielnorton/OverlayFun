@@ -12,10 +12,19 @@
 		9B8D6FB813CF642600CFAECC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8D6FB713CF642600CFAECC /* CoreGraphics.framework */; };
 		9B8D6FBE13CF642600CFAECC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D6FBC13CF642600CFAECC /* InfoPlist.strings */; };
 		9B8D6FC113CF642600CFAECC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D6FC013CF642600CFAECC /* main.m */; };
-		9B8D6FC413CF642600CFAECC /* OverlayFunAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D6FC313CF642600CFAECC /* OverlayFunAppDelegate.m */; };
 		9B8D6FC713CF642600CFAECC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D6FC513CF642600CFAECC /* MainWindow.xib */; };
-		9B8D6FCA13CF642600CFAECC /* OverlayFunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D6FC913CF642600CFAECC /* OverlayFunViewController.m */; };
 		9B8D6FCD13CF642600CFAECC /* OverlayFunViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D6FCB13CF642600CFAECC /* OverlayFunViewController.xib */; };
+		9B8D6FDA13CF6DF500CFAECC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D6FD813CF6DF500CFAECC /* Default.png */; };
+		9B8D6FDB13CF6DF500CFAECC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D6FD913CF6DF500CFAECC /* Default@2x.png */; };
+		9B8D6FE113CF6E0200CFAECC /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D6FDC13CF6E0200CFAECC /* Icon-Small-50.png */; };
+		9B8D6FE213CF6E0200CFAECC /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D6FDD13CF6E0200CFAECC /* Icon-Small.png */; };
+		9B8D6FE313CF6E0200CFAECC /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D6FDE13CF6E0200CFAECC /* Icon-Small@2x.png */; };
+		9B8D6FE413CF6E0200CFAECC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D6FDF13CF6E0200CFAECC /* Icon.png */; };
+		9B8D6FE513CF6E0200CFAECC /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D6FE013CF6E0200CFAECC /* Icon@2x.png */; };
+		9B8D6FEE13CF6E6F00CFAECC /* OverlayFunAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D6FE813CF6E6F00CFAECC /* OverlayFunAppDelegate.m */; };
+		9B8D6FEF13CF6E6F00CFAECC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D6FEB13CF6E6F00CFAECC /* HomeViewController.m */; };
+		9B8D6FF013CF6E6F00CFAECC /* OverlayFunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D6FED13CF6E6F00CFAECC /* OverlayFunViewController.m */; };
+		9B8D6FF413CF6E9F00CFAECC /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D6FF213CF6E9F00CFAECC /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +32,26 @@
 		9B8D6FB313CF642600CFAECC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9B8D6FB513CF642600CFAECC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9B8D6FB713CF642600CFAECC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9B8D6FBB13CF642600CFAECC /* OverlayFun-Info.plist */ = {isa = PBXFileReference; path = "OverlayFun-Info.plist"; sourceTree = "<group>"; };
+		9B8D6FBB13CF642600CFAECC /* OverlayFun-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OverlayFun-Info.plist"; sourceTree = "<group>"; };
 		9B8D6FBD13CF642600CFAECC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9B8D6FBF13CF642600CFAECC /* OverlayFun-Prefix.pch */ = {isa = PBXFileReference; path = "OverlayFun-Prefix.pch"; sourceTree = "<group>"; };
+		9B8D6FBF13CF642600CFAECC /* OverlayFun-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OverlayFun-Prefix.pch"; sourceTree = "<group>"; };
 		9B8D6FC013CF642600CFAECC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9B8D6FC213CF642600CFAECC /* OverlayFunAppDelegate.h */ = {isa = PBXFileReference; path = OverlayFunAppDelegate.h; sourceTree = "<group>"; };
-		9B8D6FC313CF642600CFAECC /* OverlayFunAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverlayFunAppDelegate.m; sourceTree = "<group>"; };
 		9B8D6FC613CF642600CFAECC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		9B8D6FC813CF642600CFAECC /* OverlayFunViewController.h */ = {isa = PBXFileReference; path = OverlayFunViewController.h; sourceTree = "<group>"; };
-		9B8D6FC913CF642600CFAECC /* OverlayFunViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverlayFunViewController.m; sourceTree = "<group>"; };
 		9B8D6FCC13CF642600CFAECC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OverlayFunViewController.xib; sourceTree = "<group>"; };
+		9B8D6FD813CF6DF500CFAECC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9B8D6FD913CF6DF500CFAECC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9B8D6FDC13CF6E0200CFAECC /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		9B8D6FDD13CF6E0200CFAECC /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		9B8D6FDE13CF6E0200CFAECC /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		9B8D6FDF13CF6E0200CFAECC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		9B8D6FE013CF6E0200CFAECC /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		9B8D6FE713CF6E6F00CFAECC /* OverlayFunAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayFunAppDelegate.h; sourceTree = "<group>"; };
+		9B8D6FE813CF6E6F00CFAECC /* OverlayFunAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayFunAppDelegate.m; sourceTree = "<group>"; };
+		9B8D6FEA13CF6E6F00CFAECC /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		9B8D6FEB13CF6E6F00CFAECC /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		9B8D6FEC13CF6E6F00CFAECC /* OverlayFunViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayFunViewController.h; sourceTree = "<group>"; };
+		9B8D6FED13CF6E6F00CFAECC /* OverlayFunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayFunViewController.m; sourceTree = "<group>"; };
+		9B8D6FF313CF6E9F00CFAECC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +98,9 @@
 		9B8D6FB913CF642600CFAECC /* OverlayFun */ = {
 			isa = PBXGroup;
 			children = (
-				9B8D6FC213CF642600CFAECC /* OverlayFunAppDelegate.h */,
-				9B8D6FC313CF642600CFAECC /* OverlayFunAppDelegate.m */,
-				9B8D6FC513CF642600CFAECC /* MainWindow.xib */,
-				9B8D6FC813CF642600CFAECC /* OverlayFunViewController.h */,
-				9B8D6FC913CF642600CFAECC /* OverlayFunViewController.m */,
-				9B8D6FCB13CF642600CFAECC /* OverlayFunViewController.xib */,
+				9B8D6FF113CF6E7800CFAECC /* en.lproj */,
+				9B8D6FE613CF6E6F00CFAECC /* Application */,
+				9B8D6FE913CF6E6F00CFAECC /* Controllers */,
 				9B8D6FBA13CF642600CFAECC /* Supporting Files */,
 			);
 			path = OverlayFun;
@@ -94,11 +110,48 @@
 			isa = PBXGroup;
 			children = (
 				9B8D6FBB13CF642600CFAECC /* OverlayFun-Info.plist */,
-				9B8D6FBC13CF642600CFAECC /* InfoPlist.strings */,
 				9B8D6FBF13CF642600CFAECC /* OverlayFun-Prefix.pch */,
 				9B8D6FC013CF642600CFAECC /* main.m */,
+				9B8D6FD813CF6DF500CFAECC /* Default.png */,
+				9B8D6FD913CF6DF500CFAECC /* Default@2x.png */,
+				9B8D6FDC13CF6E0200CFAECC /* Icon-Small-50.png */,
+				9B8D6FDD13CF6E0200CFAECC /* Icon-Small.png */,
+				9B8D6FDE13CF6E0200CFAECC /* Icon-Small@2x.png */,
+				9B8D6FDF13CF6E0200CFAECC /* Icon.png */,
+				9B8D6FE013CF6E0200CFAECC /* Icon@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B8D6FE613CF6E6F00CFAECC /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9B8D6FE713CF6E6F00CFAECC /* OverlayFunAppDelegate.h */,
+				9B8D6FE813CF6E6F00CFAECC /* OverlayFunAppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		9B8D6FE913CF6E6F00CFAECC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9B8D6FEA13CF6E6F00CFAECC /* HomeViewController.h */,
+				9B8D6FEB13CF6E6F00CFAECC /* HomeViewController.m */,
+				9B8D6FEC13CF6E6F00CFAECC /* OverlayFunViewController.h */,
+				9B8D6FED13CF6E6F00CFAECC /* OverlayFunViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9B8D6FF113CF6E7800CFAECC /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				9B8D6FF213CF6E9F00CFAECC /* HomeViewController.xib */,
+				9B8D6FBC13CF642600CFAECC /* InfoPlist.strings */,
+				9B8D6FC513CF642600CFAECC /* MainWindow.xib */,
+				9B8D6FCB13CF642600CFAECC /* OverlayFunViewController.xib */,
+			);
+			path = en.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +207,14 @@
 				9B8D6FBE13CF642600CFAECC /* InfoPlist.strings in Resources */,
 				9B8D6FC713CF642600CFAECC /* MainWindow.xib in Resources */,
 				9B8D6FCD13CF642600CFAECC /* OverlayFunViewController.xib in Resources */,
+				9B8D6FDA13CF6DF500CFAECC /* Default.png in Resources */,
+				9B8D6FDB13CF6DF500CFAECC /* Default@2x.png in Resources */,
+				9B8D6FE113CF6E0200CFAECC /* Icon-Small-50.png in Resources */,
+				9B8D6FE213CF6E0200CFAECC /* Icon-Small.png in Resources */,
+				9B8D6FE313CF6E0200CFAECC /* Icon-Small@2x.png in Resources */,
+				9B8D6FE413CF6E0200CFAECC /* Icon.png in Resources */,
+				9B8D6FE513CF6E0200CFAECC /* Icon@2x.png in Resources */,
+				9B8D6FF413CF6E9F00CFAECC /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,8 +226,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B8D6FC113CF642600CFAECC /* main.m in Sources */,
-				9B8D6FC413CF642600CFAECC /* OverlayFunAppDelegate.m in Sources */,
-				9B8D6FCA13CF642600CFAECC /* OverlayFunViewController.m in Sources */,
+				9B8D6FEE13CF6E6F00CFAECC /* OverlayFunAppDelegate.m in Sources */,
+				9B8D6FEF13CF6E6F00CFAECC /* HomeViewController.m in Sources */,
+				9B8D6FF013CF6E6F00CFAECC /* OverlayFunViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +241,7 @@
 				9B8D6FBD13CF642600CFAECC /* en */,
 			);
 			name = InfoPlist.strings;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		9B8D6FC513CF642600CFAECC /* MainWindow.xib */ = {
@@ -187,6 +250,7 @@
 				9B8D6FC613CF642600CFAECC /* en */,
 			);
 			name = MainWindow.xib;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		9B8D6FCB13CF642600CFAECC /* OverlayFunViewController.xib */ = {
@@ -195,6 +259,15 @@
 				9B8D6FCC13CF642600CFAECC /* en */,
 			);
 			name = OverlayFunViewController.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		9B8D6FF213CF6E9F00CFAECC /* HomeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B8D6FF313CF6E9F00CFAECC /* en */,
+			);
+			name = HomeViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
